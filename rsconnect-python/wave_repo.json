@@ -1,0 +1,12 @@
+{
+    "https://rconnect.chs.usgs.gov/": {
+        "server_url": "https://rconnect.chs.usgs.gov/",
+        "filename": "C:\\Users\\tvking\\OneDrive - DOI\\Documents\\King\\tvking_git_projects\\wave_repo",
+        "app_url": "https://rconnect.chs.usgs.gov/content/6fddcbe5-34ee-44f5-a4ea-e97665262f89/",
+        "app_id": "3982",
+        "app_guid": "6fddcbe5-34ee-44f5-a4ea-e97665262f89",
+        "title": "WAVE: Watershed Assessment and Visualization Engine",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}

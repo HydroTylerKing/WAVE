@@ -1,0 +1,39 @@
+﻿water_budget,data_type,variable,ref_dataset,gee_callout,var_name,units,scale,date_onset,date_end,spatial_res,reported_units,lat_min,lat_max,lon_min,lon_max
+BAS,basin,Basin,WWF HydroSHEDS Basins Level 5,WWF/HydroSHEDS/v1/Basins/hybas_5,HYBAS_ID,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+CTY,country,Country,"LSIB 2017: Large Scale International Boundary Polygons, Simplified",USDOS/LSIB/2017,COUNTRY_NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+DEM,elevation,SRTM DEM,NASA SRTM Digital Elevation 30m,USGS/SRTMGL1_003,elevation,m,1,NA,NA,0.03 km,m,-90,90,-180,180
+IRR,irrigation type,Irrigation Type,LGRIP: GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product,projects/sat-io/open-datasets/GFSAD/LGRIP30,NA,class,1,1/1/2015,1/1/2015,0.03 km,class,-90,90,-180,180
+LAK,lake,Lake,HydroLAKES v1.0,projects/sat-io/open-datasets/HydroLakes/lake_poly_v10,NA,NA,1,NA,NA,0.1 km^2,NA,NA,NA,NA,NA
+POP,population_gpw,GPWv411 Population Count,GPWv411 Population,CIESIN/GPWv411/GPW_Population_Count,population_count,m,1,1/1/2000,1/1/2020,0.93 km,NA,NA,NA,NA,NA
+RIV,river,River,WWF HydroSHEDS Free Flowing Rivers Network v1,WWF/HydroSHEDS/v1/FreeFlowingRivers,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+SBA,subbasin,Sub-basin,WWF HydroSHEDS Basins Level 7,WWF/HydroSHEDS/v1/Basins/hybas_7,HYBAS_ID,NA,1,NA,NA,NA,NA,NA,NA,NA,NA
+VEG,vegetation,Landsat 8: NDVI,Landsat 8 Coll2 T1 Real-Time TOA,LANDSAT/LC08/C02/T1_RT_TOA,NA,m,1,3/18/2013,12/31/2099,0.03 km,m,-90,90,-180,180
+WAT,water presence,Landsat 8: MNDWI,Landsat 8 Coll2 T1 Real-Time TOA,LANDSAT/LC08/C02/T1_RT_TOA,NA,m,1,3/18/2013,12/31/2099,0.03 km,m,-90,90,-180,180
+CW,canopy water_gldas,GLDAS-2.1 Canopy Water,GLDAS-2.1: Global Land Data Assimilation System,NASA/GLDAS/V021/NOAH/G025/T3H,CanopInt_inst,kg/m^2,1,1/1/2000,12/31/2099,27.83 km,kg/m^2,-90,90,-180,180
+CW,canopy water,ERA5 Canopy Water,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/MONTHLY_AGGR,skin_reservoir_content,m,1,1/2/1950,12/31/2099,11.132 m,m of water equivalent,-90,90,-180,180
+ET,et_modis,MODIS ET,MODIS Terra Net Evapotranspiration Gap-Filled,MODIS/061/MOD16A2GF,ET,kg/m^2 8day,0.1,1/1/2000,12/31/2099,0.5 km,kg/m^2/8day,-90,90,-180,180
+ET,et,ERA5 ET,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/MONTHLY_AGGR,total_evaporation_sum,m,1,1/2/1950,12/31/2099,11.132 m,m,-90,90,-180,180
+ET,et_ssebop,SSEBop_ET,USGS SSEBop MODIS Evapotranspiration,projects/earthengine-legacy/assets/projects/usgs-ssebop/modis_et_v5_monthly,et,mm,1,1/1/2003,5/1/2022,1 km,mm,-90,90,-180,180
+ET,et_terraclim,TerraClimate Actual ET,TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces,IDAHO_EPSCOR/TERRACLIMATE,aet,mm,0.1,1/1/1958,12/1/2024,4.6 km,NA,-90,90,-180,180
+LC,land cover,MODIS Land Cover,MCD12Q1.061 MODIS Land Cover Type Yearly Global 500m,MODIS/061/MCD12Q1,LC_Type1,class,1,1/1/2001,1/1/2023,0.5 km,class,-90,90,-180,180
+P,precipitation_chirps,CHIRPS Precipitation,Climate Hazards Center InfraRed Precipitation with Station data,UCSB-CHG/CHIRPS/DAILY,precipitation,mm,1,1/1/1981,12/31/2099,5 km,mm/day,-90,90,-180,180
+P,precipitation_gpm,GPM Precipitation,GPM: Monthly Global Precipitation Measurement,NASA/GPM_L3/IMERG_MONTHLY_V07,precipitation,mm/hr,1,6/1/2000,11/30/2024,10 km,mm/hr,-90,90,-180,180
+P,precipitation,ERA5 Precipitation,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/MONTHLY_AGGR,total_precipitation_sum,m,1,1/2/1950,12/31/2099,11.132 m,m,-90,90,-180,180
+P,precipitation_cpc,CPC Global Unified Gauge-Based Precipitation,CPC Global Unified Gauge-Based Analysis of Daily Precipitation,NOAA/CPC/Precipitation,precipitation,mm,0.1,1/1/2006,12/31/2099,55.5 km,mm,-90,90,-180,180
+P,precipitation_terraclim,TerraClimate Precipitation,TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces,IDAHO_EPSCOR/TERRACLIMATE,pr,mm,1,1/1/1958,12/1/2024,4.6 km,NA,-90,90,-180,180
+P,precipitation_persiann,PERSIANN-CDR Precipitation,PERSIANN-CDR: Precipitation Estimation From Remotely Sensed Information Using Artificial Neural Networks-Climate Data Record,NOAA/PERSIANN-CDR,precipitation,mm,1,1/1/1983,9/30/2024,27.83 km,mm,-59,59,-180,180
+Q,runoff,ERA5 Runoff,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/MONTHLY_AGGR,surface_runoff_sum,m,1,1/2/1950,12/31/2099,11.132 km,m,-90,90,-180,180
+Q,runoff_gldas,GLDAS-2.1 Storm Surface Runoff,GLDAS-2.1: Global Land Data Assimilation System,NASA/GLDAS/V021/NOAH/G025/T3H,Qs_acc,kg/m^2,1,1/1/2000,12/31/2099,27.83 km,kg/m^2,-90,90,-180,180
+Q,runoff_terraclim,TerraClimate Runoff,TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces,IDAHO_EPSCOR/TERRACLIMATE,ro,mm,0.1,1/1/1958,12/1/2024,4.6 km,NA,-90,90,-180,180
+S,storage,GRACE TWS,NASA GRACE Monthly Mass Grids,NASA/GRACE/MASS_GRIDS_V04/MASCON_CRI,lwe_thickness,cm,1,3/31/2002,9/30/2024,300 km,cm,NA,NA,NA,NA
+S,subsurface_runoff,ERA5 Sub-surface,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/MONTHLY_AGGR,sub_surface_runoff_sum,m,1,1/2/1950,12/31/2099,11.132 m,m,-90,90,-180,180
+SM,soil moisture,ERA5 Soil Water,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/MONTHLY_AGGR,volumetric_soil_water_layer_1,volume fraction/7,1,1/2/1950,12/31/2099,11.132 m,%/volume,-90,90,-180,180
+SM,soil moisture_terraclim,TerraClimate Soil Moisture,TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces,IDAHO_EPSCOR/TERRACLIMATE,soil,mm,0.1,1/1/1958,12/1/2024,4.6 km,NA,-90,90,-180,180
+SM,soil moisture_gldas,GLDAS-2.1 Soil Moisture,GLDAS-2.1: Global Land Data Assimilation System,NASA/GLDAS/V021/NOAH/G025/T3H,SoilMoi0_10cm_inst,kg/m^2,1,1/1/2000,12/31/2099,27.83 km,kg/m^2,-90,90,-180,180
+SWATER,surface water,SWOT,Surface Water and Ocean Topography (SWOT) Reaches,projects/sat-io/open-datasets/SWORD/reaches_merged,wse,m,1,1/1/2023,12/31/2099,0.05 km,m,-90,90,-180,180
+SWE,swe,ERA5 SWE,ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis,ECMWF/ERA5_LAND/DAILY_AGGR,snow_depth_water_equivalent,m,1,1/2/1950,12/31/2099,11.132 m,m,-90,90,-180,180
+SWE,swe_terraclim,TerraClimate SWE,TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces,IDAHO_EPSCOR/TERRACLIMATE,swe,mm,1,1/1/1958,12/1/2024,4.6 km,NA,-90,90,-180,180
+SWE,swe_gldas,GLDAS-2.1 SWE,GLDAS-2.1: Global Land Data Assimilation System,NASA/GLDAS/V021/NOAH/G025/T3H,SWE_inst,kg/m^2,1,1/1/2000,12/31/2099,27.83 km,kg/m^2,-90,90,-180,180
+SW,surface water_jrc,JRC Monthly Water History,JRC Monthly Water History,JRC/GSW1_4/MonthlyHistory,water,m,1,3/16/1984,1/1/2022,0.03 km,m,-90,90,-180,180
+SW,surface water_opera_s1,Dynamic Surface Water Extent from Sentinel-1,Dynamic Surface Water Extent from Sentinel-1,OPERA/DSWX/L3_V1/S1,BWTR_Binary_water,m,1,8/1/2024,12/31/2099,0.03 km,m,-90,90,-180,180
+SW,surface water_opera_ls_s1,Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2,Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2,OPERA/DSWX/L3_V1/HLS,BWTR_Binary_water,m,1,4/4/2023,12/31/2099,0.3 km,m,-90,90,-180,180

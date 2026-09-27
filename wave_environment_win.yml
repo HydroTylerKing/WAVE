@@ -1,0 +1,57 @@
+name: wave_env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Core Python
+  - python>=3.11,<3.13
+
+  # Scientific & numeric stack
+  - numpy
+  - pandas
+  - xarray
+  - netcdf4
+  - scipy
+  - statsmodels
+  # matplotlib-base avoids pulling the Qt GUI backend (qt6-main / pyqt),
+  # which fails to install on Windows without long-path support enabled.
+  # WAVE renders plots through Shiny (Agg backend), so no Qt GUI is needed.
+  - matplotlib-base
+  - plotly
+  - python-dateutil
+  - pymannkendall
+  - itables
+
+  # GIS / Geospatial packages
+  - gdal
+  - geopandas
+  - shapely
+  - pyproj
+  - rasterio
+  - fiona
+  - libspatialindex
+
+  # Mapping widgets
+  - ipyleaflet>=0.19.0
+  - ipywidgets>=8.0.0
+  - folium
+  - jupyter_packaging
+  - notebook>=7.0.0
+  - ipykernel
+  - nbclient
+
+  # Web / HTTP
+  - requests
+
+  # Utility libs
+  - pip
+  - loguru
+  - python-dotenv
+
+  # Pip-only packages
+  - pip:
+      - earthengine-api        # Google Earth Engine
+      - earthaccess            # NASA Earthdata (one-time SWOT PLD data prep only)
+      - shiny                  # Web app framework
+      - shinywidgets           # Shiny widget bindings
+      - shinyswatch            # Bootstrap theming

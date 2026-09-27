@@ -1,0 +1,18 @@
+﻿val,col,class
+1,#05450a,Evergreen Needleleaf Forests
+2,#086a10,Evergreen Broadleaf Forests
+3,#54a708,Deciduous Needleleaf Forests
+4,#78d203,Deciduous Broadleaf Forests
+5,#009900,Mixed Forests
+6,#c6b044,Closed Shrublands
+7,#dcd159,Open Shrublands
+8,#dade48,Woody Savannas
+9,#fbff13,Savannas
+10,#b6ff05,Grasslands
+11,#27ff87,Permanent Wetlands
+12,#c24f44,Croplands
+13,#a5a5a5,Urban and Built-up Lands
+14,#ff6d4c,Cropland/Natural Vegetation Mosaics
+15,#69fff8,Permanent Snow and Ice
+16,#f9ffa4,Barren
+17,#1c0dff,Water Bodies
